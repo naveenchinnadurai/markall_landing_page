@@ -1,0 +1,91 @@
+.Contact-div {
+    height: 661.18px;
+    opacity: 1;
+    margin: 170px 0;
+    display: flex;
+    background-color: #e6f0fd;
+    justify-content: space-evenly;
+}
+
+.contact-txt {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+    height: 100%;
+}
+
+.contact-icons {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icons>h1 {
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #4F4F4F;
+}
+
+.contact-icons>img {
+    height: 35px;
+}
+
+.contact-text>p {
+    font-size: 25px;
+    color: grey;
+}
+
+.contact-inputs {
+    height: 130%;
+    position: relative;
+    top: -100px;
+    background-color: #FFFFFF;
+    width: 50%;
+    padding: 60px;
+    box-shadow: 5px 2px 5px 5px rgb(190, 190, 190);
+}
+
+.contact-inputs>h1 {
+    font-size: 56px;
+    margin: 10px 0;
+}
+
+.contact-inputs>p {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justified;
+    color: #828282;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    margin: 30px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 0;
+    border: none;
+    color: #828282;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit-btn {
+    background-color: rgb(62, 98, 216);
+    width: fit-content;
+    padding: 20px 50px;
+    color: white;
+    margin: 70px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
