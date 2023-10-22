@@ -29,3 +29,10 @@ li {
     color: white;
     border: 1px solid white;
 }
+html::-webkit-scrollbar{
+    background-color: transparent;
+    width: 5px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: black;
+}
