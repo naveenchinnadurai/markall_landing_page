@@ -9,6 +9,9 @@ li {
     list-style: none;
 }
 
+body{
+    background-color: red;
+}
 .h-fit {
     height: fit-content;
 }
