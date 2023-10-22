@@ -7,19 +7,25 @@ import email from '../assets/contactImg/emailImg.png'
 function Contact() {
     const contactList = [
         {
+            id:1,
             title: 'Call us',
             img: call,
-            txt: '+91 93545 66860'
+            txt: '+91 93545 66860',
+            class:"line"
         },
         {
+            id:2,
             title: 'Location',
             img: location,
-            txt: 'Ghaziabad, Uttar Pradesh'
+            txt: 'Ghaziabad, Uttar Pradesh',
+            class:""
         },
         {
+            id:3,
             title: 'Mail us',
             img: email,
-            txt: 'info@markall.in'
+            txt: 'info@markall.in',
+            class:""
         },
     ]
     const formFilledDetails = []
@@ -28,12 +34,14 @@ function Contact() {
         const email = document.getElementById('email-input').value
         const phnNo = document.getElementById('phone-input').value
         const msg = document.getElementById('msg-input').value
-        const enterDetails={
+        const enteredData={
             Name:name,
             EmailId:email,
             PhoneNo:phnNo,
             Message:msg
         }
+        formFilledDetails.push(enteredData)
+        console.log(formFilledDetails)
         alert("Name: "+name+"\nEmai: "+email+"\nPhone No: "+phnNo+"\nMessage: "+msg)
     }
     return (
@@ -42,12 +50,12 @@ function Contact() {
                 {
                     contactList.map((e) => {
                         return (
-                            <div className="contact-text">
+                            <div className="contact-text" id={e.id}>
                                 <div className="contact-icons">
                                     <img src={e.img} alt={e.title} />
                                     <h1>{e.title}</h1>
                                 </div>
-                                <p>{e.txt}</p>
+                                <p className={e.class}>{e.txt}</p>
                             </div>
                         )
                     })

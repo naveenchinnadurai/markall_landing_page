@@ -16,16 +16,16 @@ function App() {
     <div className="App">
       <div className="banner">
         <NavBar />
-        <div className="banner-div">
+        <div className="h-fit banner-div">
           <div className="banner-txt-div">
-            <h2>Reach your -<br /> audience & convert<br />your leads</h2>
+            <h2>Reach your -<br /><span className='underline-1'><b className='underline'>audience</b> </span>& convert<br />your leads</h2>
             <p>Get your customers with SEO, rank your business with <br /> email marketing, build sales leads</p>
             <div className='banner-btns'>
               <span className="btn">Get Started</span>
               <div className="btn outline-btn banner-btn-1 ">
                 <img src={playBtn} alt="play-btn" />
                 <span>Watch Demo</span>
-                </div>
+              </div>
             </div>
           </div>
           <div className="banner-img-div">

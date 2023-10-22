@@ -36,7 +36,10 @@
     font-size: 25px;
     color: grey;
 }
-
+.line{
+    border-bottom: 1px solid grey;
+    width: fit-content;
+}
 .contact-inputs {
     height: 130%;
     position: relative;
