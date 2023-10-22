@@ -86,9 +86,9 @@ input:focus {
 .submit-btn {
     background-color: rgb(62, 98, 216);
     width: fit-content;
-    padding: 20px 50px;
+    padding: 15px 40px;
     color: white;
-    margin: 70px 0;
+    margin: 50px 0;
     font-size: 20px;
     cursor: pointer;
 }
