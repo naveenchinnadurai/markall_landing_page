@@ -29,12 +29,3 @@ li {
     color: white;
     border: 1px solid white;
 }
-
-html::-webkit-scrollbar {
-    width: 5px;
-    background: transparent;
-}
-
-html::-webkit-scrollbar-thumb {
-    background-color: rgb(14, 2, 32);
-}
