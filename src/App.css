@@ -1,195 +1,29 @@
-.banner {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    @apply bg-[#7CEDA1] px-4 py-2 rounded-lg text-black font-bold w-fit cursor-pointer h-fit
+}
+
+.outline-btn {
+    @apply bg-transparent text-white border border-white h-fit w-fit
+}
+
+input {
+    @apply  py-2 text-base my-5 text-[#828282] border-b border-[#E0E0E0] focus:outline-none
+}
+
+
+html::-webkit-scrollbar {
+    width: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
     background-color: black;
-    color: white;
-}
-
-.banner {
-    padding: 0 40px;
-    height:1024px;
-    border-bottom-left-radius: 100px;
-    display: grid;
-}
-
-.banner-div {
-    display: flex;
-    justify-content: space-between;
-}
-.banner-txt-div{
-    width: fit-content;
-    padding: 20px;
-}
-.banner-txt-div>h2 {
-    font-weight: 700;
-    font-size: 60px;
-    margin: 10px 0;
-    line-height: 85px;
-}
-.underline{
-    border-bottom: 1px solid white;
-    font-weight: 700;
-    font-size: 60px;
-    width: 200px;
-}
-.underline-1{
-    border-bottom: 1px solid white;
-    font-weight: 700;
-    font-size: 60px;
-    width: 200px;
-    padding-bottom: 8px;
-}
-.banner-txt-div>p {
-    margin: 30px 0;
-    line-height: 30px;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.banner-btns {
-    display: flex;
-}
-
-.banner-btns>div>img {
-    margin-right: 10px;
-}
-
-.banner-btn-1 {
-    margin: 0 20px;
-}
-
-.banner-img-div {
-    border: 1px solid white;
-    width: 552px;
-    height: 371px;
-}
-
-.banner-img {
-    position: relative;
-    width: 578px;
-    height: 386px;
-    left: -50px;
-    bottom: -20px;
-}
-
-.app-feature-div {
-    padding: 10px 40px;
-}
-
-.features-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 40px 0px;
-    height: 430px;
-}
-
-.features-div-2 {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.features-div-2>p {
-    margin-top: 20px;
-}
-
-#feature-para-width-80 {
-    width: 40%;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 30px;
-}
-
-.testimonial {
-    background-color: #FFFBEE;
-    margin: 70px 0;
-    height: fit-content;
-    padding: 30px 40px;
-}
-
-.testimonial-div {
-    align-items: flex-start;
-    padding: 50px 0;
-}
-
-.testimonial-div>img {
-    padding: 2px;
-}
-
-.testimonial-details {
-    width: 50%;
-    position: relative;
-    top: 20px;
-    left: 40px;
-}
-
-.testimonial-details>p {
-    font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 49px;
-    text-align: left;
-}
-
-.testimoni-name {
-    margin-top: 20px;
-}
-
-.testimoni-name>h2 {
-    font-size: 40px;
-    color: #32584A;
-    font-weight: 700;
-}
-
-.testimoni-name>h3 {
-    font-size: 30px;
-    color: #32584AB2;
-}
-
-#feature-para-width-40 {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 49px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #32584A;
-
-}
-
-.app-feature-div-1 {
-    height: 488px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #F1F1F1;
-    padding: 30px 40px;
-    border-radius: 20px;
-}
-
-.app-feature-div-txt {
-    width: 30%;
-}
-
-.app-feature-div-txt>h2 {
-    font-size: 35px;
-    line-height: 42px;
-    font-weight: 700;
-}
-
-.app-feature-div-txt>p {
-    font-size: 30px;
-    margin: 20px 0;
-    line-height: 36px;
-    font-weight: 400;
-}
-
-.feature-btn>span {
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 36px;
-    margin-right: 10px;
-}
-
-.feature-img {
-    width: 528px;
-    height: 352px;
 }
