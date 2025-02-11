@@ -76,10 +76,10 @@ function Contact() {
                         return (
                             <div key={e.id} className="w-full sm:w-1/2 md:w-fit flex flex-col mt-8 lg:mt-0 justify-evenly items-center md:items-start lg:p-6 " id={e.id}>
                                 <div className="flex items-center justify-center md:gap-1">
-                                    <span className='text-blue-600 font-bold text-3xl md:text-4xl'>{e.img}</span>
-                                    <h1 className='text-xl md:text-4xl font-medium text-[#4F4F4F]'>{e.title}</h1>
+                                    <span className='text-blue-600 font-bold text-3xl md:text-3xl'>{e.img}</span>
+                                    <h1 className='text-xl md:text-2xl font-medium text-[#4F4F4F]'>{e.title}</h1>
                                 </div>
-                                <p className={`text-lg md:text-2xl text-gray-500 text-center md:text-start ${e.class}`}>{e.txt}</p>
+                                <p className={`text-lg md:text-xl text-gray-500 text-center md:text-start ${e.class}`}>{e.txt}</p>
                             </div>
                         )
                     })
